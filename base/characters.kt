@@ -1,4 +1,4 @@
-package base.characters
+package base
 
 enum class RELIGION {
     NA, Tradition, Christian, Shinto
@@ -36,6 +36,7 @@ open class Character()
         if (Anxiety < 0)
         Anxiety = 0
     }
+    
     fun isDead(): Boolean
     {
         var status: Boolean
